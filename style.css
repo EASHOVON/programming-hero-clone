@@ -43,3 +43,44 @@ body {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+.hero-content {
+  width: 40%;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero-content span {
+  color: #21e1ce;
+}
+.hero-content p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(1.09deg, #6e1fea -11.78%, #4289ff 198.26%);
+  border: none;
+  font-size: 16px;
+  padding: 18px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 40%;
+}
