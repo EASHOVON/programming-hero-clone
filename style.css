@@ -123,3 +123,14 @@ body {
 .title span {
   color: #f9b034;
 }
+
+.app-store {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.play-store {
+  margin-right: 10px;
+}
