@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 1145px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
   font-weight: 700;
 }
@@ -83,4 +83,27 @@ body {
 
 .hero-image {
   width: 40%;
+}
+
+/* App Overview */
+.app-overview {
+  background: #211548;
+  border-radius: 16px;
+  padding: 25px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.overview-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.overview-item h3 {
+  font-size: 28px;
+  font-weight: 500;
 }
